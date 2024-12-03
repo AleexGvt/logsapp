@@ -1,0 +1,25 @@
+# Ignorar archivos de entorno
+.env
+
+# Ignorar dependencias instaladas
+/vendor
+/node_modules
+
+# Ignorar caché y logs
+/storage/*.key
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+
+# Ignorar configuraciones de Docker temporales
+laradock/.env
+laradock/mysql/data
+laradock/postgres/data
+laradock/redis/data
